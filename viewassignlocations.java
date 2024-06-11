@@ -66,7 +66,6 @@ public class viewassignlocations extends JFrame {
         view.setForeground(Color.white);
         view.setBackground(Color.black);
         
-        /*Icon icon = new ImageIcon("C:\\Users\\VEMU ABHINAV\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\back arrow.jpeg");*/
         JButton backButton = new JButton("BACK");
         
         backButton.addActionListener(new ActionListener() {
@@ -96,7 +95,7 @@ public class viewassignlocations extends JFrame {
         background2.setBounds(1120, 5, 480, 152);*/
         
         
-        ImageIcon background_image = new ImageIcon("C:\\Users\\VEMU ABHINAV\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\white_bg.png");
+        ImageIcon background_image = new ImageIcon("C:\\Users\\SREE VIRAJITHA\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\white_bg.png");
         Image img = background_image.getImage();
         Image temp_img = img.getScaledInstance(1920,1080, Image.SCALE_SMOOTH);
         background_image = new ImageIcon(temp_img);
