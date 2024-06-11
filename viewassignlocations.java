@@ -80,7 +80,7 @@ public class viewassignlocations extends JFrame {
         backButton.setBackground(Color.white);
         /*backButton.setOpaque(false);*/
         
-        ImageIcon bg = new ImageIcon("C:\\Users\\VEMU ABHINAV\\Downloads\\Census-Duty-Management-main\\Background images\\emblem.png");
+        ImageIcon bg = new ImageIcon("C:\\Users\\SREE VIRAJITHA\\Downloads\\Census-Duty-Management-main\\Background images\\emblem.png");
         Image i = bg.getImage();
         Image tem_img = i.getScaledInstance(150, 120, Image.SCALE_SMOOTH);
         bg = new ImageIcon(tem_img);
