@@ -233,7 +233,7 @@ public class TeacherUI  extends JFrame {
         submit.setForeground(Color.white);
         submit.setBackground(Color.black);
         
-        /*Icon icon = new ImageIcon("C:\\Users\\VEMU ABHINAV\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\back arrow.jpeg");*/
+        /*Icon icon = new ImageIcon("C:\\Users\\SREE VIRAJITHA\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\back arrow.jpeg");*/
         JButton backButton = new JButton("BACK");
         
         backButton.addActionListener(new ActionListener() {
@@ -250,7 +250,7 @@ public class TeacherUI  extends JFrame {
         backButton.setBorderPainted(false);
         
         
-        ImageIcon bg = new ImageIcon("C:\\Users\\VEMU ABHINAV\\Downloads\\Census-Duty-Management-main\\Background images\\emblem.png");
+        ImageIcon bg = new ImageIcon("C:\\Users\\SREE VIRAJITHA\\Downloads\\Census-Duty-Management-main\\Background images\\emblem.png");
         Image i = bg.getImage();
         Image tem_img = i.getScaledInstance(150, 120, Image.SCALE_SMOOTH);
         bg = new ImageIcon(tem_img);
@@ -265,7 +265,7 @@ public class TeacherUI  extends JFrame {
         background2.setBounds(1110, 5, 480, 152);
         
         
-        ImageIcon background_image = new ImageIcon("C:\\Users\\VEMU ABHINAV\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\white_bg.png");
+        ImageIcon background_image = new ImageIcon("C:\\Users\\SREE VIRAJITHA\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\white_bg.png");
         Image img = background_image.getImage();
         Image temp_img = img.getScaledInstance(1920,1080, Image.SCALE_SMOOTH);
         background_image = new ImageIcon(temp_img);
