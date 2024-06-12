@@ -78,7 +78,7 @@ class login extends JFrame {
 		        JLabel background2 = new JLabel("", bg, JLabel.CENTER);
 		        background2.setBounds(1270, 5, 350, 150);
 
-		        ImageIcon background_image = new ImageIcon("C:\\Users\\VEMU ABHINAV\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\wallhaven-43pov6_1920x1080.png");
+		        ImageIcon background_image = new ImageIcon("C:\\Users\\SREE VIRAJITHA\\Downloads\\Census-Duty-Management-main\\Grp-17 CensusDuty Management System\\wallhaven-43pov6_1920x1080.png");
 		        Image img = background_image.getImage();
 		        Image temp_img = img.getScaledInstance(1535, 850, Image.SCALE_SMOOTH);
 		        background_image = new ImageIcon(temp_img);
